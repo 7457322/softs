@@ -1,0 +1,665 @@
+
+>>[2022-09-21 15:04:45] HEU KMS Activator 26.0.0 激活Windows=1 激活Office=1 数字/KMS38=1 OEM激活=1 Office自动转VL=1 在线KMS服务器=0 KMS自动续期=1 生成日志=1 
+【CLICK Smart_Btn......】
+Windows 10 Pro X64 Build 22000 激活方案 1
+[WinMgmt]服务正常
+[SPPSVC]服务正常
+
+>>[2022-09-21 15:04:46] _CheckWindowsLicensestatus LS = 0
+>>[2022-09-21 15:04:47] _CheckWindowsInfo_Digital Windows SKUID = 48
+>>[2022-09-21 15:04:47] _Define_Windows_Edition_DLA = Professional
+>>[2022-09-21 15:04:47] _Define_Windows_Key_DLA = VK7JG-NPHTM-C97JM-9MPGT-3V66T
+>>[2022-09-21 15:04:47] _DigitalActivate ARM = 0
+>>[2022-09-21 15:04:48] Checcking ClipSVC ...
+        START_TYPE         : 3   DEMAND_START
+        STATE              : 1  STOPPED 
+
+>>[2022-09-21 15:04:51] sc config ClipSVC
+[SC] OpenService 失败 5:
+
+拒绝访问。
+
+start service ClipSVC:succeed 
+
+>>[2022-09-21 15:04:51] Checcking wlidsvc ...
+        START_TYPE         : 3   DEMAND_START
+        STATE              : 1  STOPPED 
+
+>>[2022-09-21 15:04:54] sc config wlidsvc
+[SC] ChangeServiceConfig 成功
+start service wlidsvc:succeed 
+
+>>[2022-09-21 15:04:54] Checcking sppsvc ...
+        START_TYPE         : 2   AUTO_START  (DELAYED)
+        STATE              : 4  RUNNING 
+
+>>[2022-09-21 15:04:56] sc config sppsvc
+[SC] OpenService 失败 5:
+
+拒绝访问。
+
+start service sppsvc:succeed 
+
+>>[2022-09-21 15:04:57] Checcking LicenseManager ...
+        START_TYPE         : 3   DEMAND_START
+        STATE              : 4  RUNNING 
+
+>>[2022-09-21 15:04:59] sc config LicenseManager
+[SC] ChangeServiceConfig 成功
+start service LicenseManager:[SC] OpenService 失败 5:
+
+拒绝访问。
+
+
+>>[2022-09-21 15:05:00] Checcking Winmgmt ...
+        START_TYPE         : 2   AUTO_START
+        STATE              : 4  RUNNING 
+
+>>[2022-09-21 15:05:02] sc config Winmgmt
+        START_TYPE         : 3   DEMAND_START
+start service Winmgmt:succeed 
+
+>>[2022-09-21 15:05:03] Checcking wuauserv ...
+        START_TYPE         : 3   DEMAND_START
+        STATE              : 1  STOPPED 
+
+>>[2022-09-21 15:05:05] sc config wuauserv
+[SC] ChangeServiceConfig 成功
+start service wuauserv:succeed 
+
+>>[2022-09-21 15:05:14] _DigitalActivate InstallWindowsKey ErrorCode = 0x00000000
+>>[2022-09-21 15:05:18] _DigitalActivate GenuineTicket.xml = 1
+>>[2022-09-21 15:05:18] _DigitalActivate Copy GenuineTicket.xml = 1 to C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\GenuineTicket.xml
+>>[2022-09-21 15:05:23] ClipSVC Service Restart Method [Succeed]
+>>[2022-09-21 15:05:23] Activating Windows ErrorCode = 0x000001A8
+>>[2022-09-21 15:05:40] Activating Windows(R), Professional edition (4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c) ...
+Product activated successfully.
+
+
+>>[2022-09-21 15:05:41] Windows(R), Professional edition:
+    The machine is permanently activated.
+
+
+>>[2022-09-21 15:05:41] 卸载自动续期......
+>>[2022-09-21 15:05:42] 
+没有与指定标准相匹配的规则。
+
+错误: 系统找不到指定的文件。
+
+>>[2022-09-21 15:05:42] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SppExtComObj.exe Del = 0
+>>[2022-09-21 15:05:42] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sppsvc.exe Del = 0
+>>[2022-09-21 15:05:42] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osppsvc.exe Del = 0
+>>[2022-09-21 15:05:42] C:\Windows\System32\SppExtComObjHook.dll: 系统找不到指定的文件。
+已成功处理 0 个文件; 处理 1 个文件时失败
+
+>>[2022-09-21 15:05:43] 
+没有与指定标准相匹配的规则。
+
+
+>>[2022-09-21 15:05:43] Windows(R), Professional edition:
+    The machine is permanently activated.
+
+
+>>[2022-09-21 15:05:44] 服务名无效。
+
+请键入 NET HELPMSG 2185 以获得更多的帮助。
+
+
+>>[2022-09-21 15:05:44] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2022-09-21 15:05:45] Check Renewal = 1
+>>[2022-09-21 15:05:47] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:05:50] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:05:53] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:05:55] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:05:58] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:01] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:04] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:06] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:11] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:14] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:17] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:23] _CleanKmsReg 1,1,1,0,0,1,0,0,1,1
+>>[2022-09-21 15:06:28] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:36] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:42] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:06:48] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:07:00] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2022-09-21 15:07:12] _CleanKmsReg 1,1,0,0,0,1,0,0,1,1
+>>[2022-09-21 15:07:12] Del = 0  C:\Windows\System32\HEUKMSRenewal.tmp
+>>[2022-09-21 15:07:12] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2022-09-21 15:07:13] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2022-09-21 15:07:13] _C2R_R2V  Begining...
+>>[2022-09-21 15:07:13] _C2R_R2V  Office16 C2R = 1,Information: 
+O365HomePremRetail,OneNoteFreeRetail
+HKLM64\SOFTWARE\Microsoft\Office\ClickToRun\Configuration
+HKLM64\SOFTWARE\Microsoft\Office\ClickToRun\ProductReleaseIDs\5E55360C-3354-48C3-A582-B9A677F32437
+C:\Program Files\Microsoft Office\root\Licenses16
+C:\Program Files\Microsoft Office\root\integration\integrator.exe
+>>[2022-09-21 15:07:13] _C2R_R2V  Office15 C2R = 0,Checking MSI...
+>>[2022-09-21 15:07:13] Office2013 _OfficeExistCheck  MSI = 0
+
+>>[2022-09-21 15:07:14] _C2R_R2V Office 2013-2021 KMSCLIENT LicenseFamily: 0
+
+>>[2022-09-21 15:07:15] _C2R_R2V Office 2013-2021 TIMEBASED LicenseFamily: 1
+Office16O365HomePremR_Subscription5
+Office16O365HomePremR_SubTest5
+Office16O365HomePremR_Subscription2
+Office16O365HomePremR_Subscription1
+Office16O365HomePremR_SubTest2
+Office16O365HomePremR_SubTrial3
+Office16O365HomePremR_SubTrial1
+Office16O365HomePremR_SubTrial5
+Office16O365HomePremR_SubTest3
+Office16O365HomePremR_SubTest1
+Office16O365HomePremR_SubTrial4
+Office16O365HomePremR_SubTest4
+Office16O365HomePremR_Subscription4
+Office16O365HomePremR_Subscription3
+Office16O365HomePremR_SubTrial2
+
+>>[2022-09-21 15:07:15] _C2R_R2V Office 2013-2021 Trial LicenseFamily: 1
+
+>>[2022-09-21 15:07:15] _C2R_R2V Office 2013-2021 Grace LicenseFamily: 1
+Office16O365HomePremR_Grace
+
+>>[2022-09-21 15:07:16] _C2R_R2V Office16MondoVL_KMS_Client: 0
+Office16O365HomePremR_Subscription5
+Office16OneNoteFreeR_Bypass
+Office16O365HomePremR_SubTest5
+Office16O365HomePremR_Subscription2
+Office16O365HomePremR_Subscription1
+Office16O365HomePremR_SubTest2
+Office16O365HomePremDemoR_BypassTrial365
+Office16O365HomePremR_SubTrial3
+Office16O365HomePremR_SubTrial1
+Office16O365HomePremR_SubTrial5
+Office16O365HomePremR_SubTest3
+Office16O365HomePremR_SubTest1
+Office16O365HomePremR_SubTrial4
+Office16O365HomePremR_SubTest4
+Office16O365HomePremR_Subscription4
+Office16O365HomePremR_Subscription3
+Office16O365HomePremR_Grace
+Office16O365HomePremR_SubTrial2
+
+>>[2022-09-21 15:07:20] _C2R_R2V SubO365: 
+1,1,1,0,0
+>>[2022-09-21 15:07:20] _C2R_R2V LicenseStatus=1 Description: 
+Office 16, RETAIL(Free) channel
+
+>>[2022-09-21 15:07:20] _C2R_R2V Office 2013-2021 LicenseStatus=1 LicenseFamily: 
+
+>>[2022-09-21 15:07:20] _C2R_R2V Office 2013-2021 LicenseFamily: 
+Office16O365HomePremR_Subscription5
+Office16OneNoteFreeR_Bypass
+Office16O365HomePremR_SubTest5
+Office16O365HomePremR_Subscription2
+Office16O365HomePremR_Subscription1
+Office16O365HomePremR_SubTest2
+Office16O365HomePremDemoR_BypassTrial365
+Office16O365HomePremR_SubTrial3
+Office16O365HomePremR_SubTrial1
+Office16O365HomePremR_SubTrial5
+Office16O365HomePremR_SubTest3
+Office16O365HomePremR_SubTest1
+Office16O365HomePremR_SubTrial4
+Office16O365HomePremR_SubTest4
+Office16O365HomePremR_Subscription4
+Office16O365HomePremR_Subscription3
+Office16O365HomePremR_Grace
+Office16O365HomePremR_SubTrial2
+
+>>[2022-09-21 15:07:20] _C2R_R2V Office16 Flag bef = 
+>>[2022-09-21 15:07:20] 
+ProPlus2019 = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectPro2019 = 0
+
+>>[2022-09-21 15:07:20] 
+VisioPro2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Standard2019 = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectStd2019 = 0
+
+>>[2022-09-21 15:07:20] 
+VisioStd2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Access2019 = 0
+
+>>[2022-09-21 15:07:20] 
+SkypeforBusiness2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Excel2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Outlook2019 = 0
+
+>>[2022-09-21 15:07:20] 
+PowerPoint2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Publisher2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Word2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Professional2019 = 0
+
+>>[2022-09-21 15:07:20] 
+HomeBusiness2019 = 0
+
+>>[2022-09-21 15:07:20] 
+HomeStudent2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Mondo = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectPro = 0
+
+>>[2022-09-21 15:07:20] 
+VisioPro = 0
+
+>>[2022-09-21 15:07:20] 
+Standard = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectStd = 0
+
+>>[2022-09-21 15:07:20] 
+VisioStd = 0
+
+>>[2022-09-21 15:07:20] 
+Access = 0
+
+>>[2022-09-21 15:07:20] 
+SkypeforBusiness = 0
+
+>>[2022-09-21 15:07:20] 
+Excel = 0
+
+>>[2022-09-21 15:07:20] 
+Outlook = 0
+
+>>[2022-09-21 15:07:20] 
+PowerPoint = 0
+
+>>[2022-09-21 15:07:20] 
+Publisher = 0
+
+>>[2022-09-21 15:07:20] 
+Word = 0
+
+>>[2022-09-21 15:07:20] 
+OneNote = 0
+
+>>[2022-09-21 15:07:20] 
+Professional = 0
+
+>>[2022-09-21 15:07:20] 
+HomeBusiness = 0
+
+>>[2022-09-21 15:07:20] 
+HomeStudent = 0
+
+>>[2022-09-21 15:07:20] 
+O365ProPlus = 0
+
+>>[2022-09-21 15:07:20] 
+O365Business = 0
+
+>>[2022-09-21 15:07:20] 
+O365SmallBusPrem = 0
+
+>>[2022-09-21 15:07:20] 
+O365HomePrem = 1
+
+>>[2022-09-21 15:07:20] 
+O365EduCloud = 0
+
+>>[2022-09-21 15:07:20] 
+ProPlus = 0
+
+>>[2022-09-21 15:07:20] 
+ProPlus2021 = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectPro2021 = 0
+
+>>[2022-09-21 15:07:20] 
+VisioPro2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Standard2021 = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectStd2021 = 0
+
+>>[2022-09-21 15:07:20] 
+VisioStd2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Access2021 = 0
+
+>>[2022-09-21 15:07:20] 
+SkypeforBusiness2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Excel2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Outlook2021 = 0
+
+>>[2022-09-21 15:07:20] 
+PowerPoint2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Publisher2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Word2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Professional2021 = 0
+
+>>[2022-09-21 15:07:20] 
+HomeBusiness2021 = 0
+
+>>[2022-09-21 15:07:20] 
+HomeStudent2021 = 0
+
+>>[2022-09-21 15:07:20] _C2R_R2V Office16 Flag aft = 
+>>[2022-09-21 15:07:20] 
+ProPlus2019 = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectPro2019 = 0
+
+>>[2022-09-21 15:07:20] 
+VisioPro2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Standard2019 = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectStd2019 = 0
+
+>>[2022-09-21 15:07:20] 
+VisioStd2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Access2019 = 0
+
+>>[2022-09-21 15:07:20] 
+SkypeforBusiness2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Excel2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Outlook2019 = 0
+
+>>[2022-09-21 15:07:20] 
+PowerPoint2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Publisher2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Word2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Professional2019 = 0
+
+>>[2022-09-21 15:07:20] 
+HomeBusiness2019 = 0
+
+>>[2022-09-21 15:07:20] 
+HomeStudent2019 = 0
+
+>>[2022-09-21 15:07:20] 
+Mondo = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectPro = 0
+
+>>[2022-09-21 15:07:20] 
+VisioPro = 0
+
+>>[2022-09-21 15:07:20] 
+Standard = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectStd = 0
+
+>>[2022-09-21 15:07:20] 
+VisioStd = 0
+
+>>[2022-09-21 15:07:20] 
+Access = 0
+
+>>[2022-09-21 15:07:20] 
+SkypeforBusiness = 0
+
+>>[2022-09-21 15:07:20] 
+Excel = 0
+
+>>[2022-09-21 15:07:20] 
+Outlook = 0
+
+>>[2022-09-21 15:07:20] 
+PowerPoint = 0
+
+>>[2022-09-21 15:07:20] 
+Publisher = 0
+
+>>[2022-09-21 15:07:20] 
+Word = 0
+
+>>[2022-09-21 15:07:20] 
+OneNote = 0
+
+>>[2022-09-21 15:07:20] 
+Professional = 0
+
+>>[2022-09-21 15:07:20] 
+HomeBusiness = 0
+
+>>[2022-09-21 15:07:20] 
+HomeStudent = 0
+
+>>[2022-09-21 15:07:20] 
+O365ProPlus = 0
+
+>>[2022-09-21 15:07:20] 
+O365Business = 0
+
+>>[2022-09-21 15:07:20] 
+O365SmallBusPrem = 0
+
+>>[2022-09-21 15:07:20] 
+O365HomePrem = 0
+
+>>[2022-09-21 15:07:20] 
+O365EduCloud = 0
+
+>>[2022-09-21 15:07:20] 
+ProPlus = 0
+
+>>[2022-09-21 15:07:20] 
+ProPlus2021 = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectPro2021 = 0
+
+>>[2022-09-21 15:07:20] 
+VisioPro2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Standard2021 = 0
+
+>>[2022-09-21 15:07:20] 
+ProjectStd2021 = 0
+
+>>[2022-09-21 15:07:20] 
+VisioStd2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Access2021 = 0
+
+>>[2022-09-21 15:07:20] 
+SkypeforBusiness2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Excel2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Outlook2021 = 0
+
+>>[2022-09-21 15:07:20] 
+PowerPoint2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Publisher2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Word2021 = 0
+
+>>[2022-09-21 15:07:20] 
+Professional2021 = 0
+
+>>[2022-09-21 15:07:20] 
+HomeBusiness2021 = 0
+
+>>[2022-09-21 15:07:20] 
+HomeStudent2021 = 0
+
+>>[2022-09-21 15:07:28] RefreshLicenseStatus Windows ErrorCode = 0x00000000
+>>[2022-09-21 15:07:28] Office2021 _OfficeExistCheck OfficeExist = 1 C2R = HKLM64\SOFTWARE\Microsoft\Office\ClickToRun\Configuration MSI = 0 PRIds = O365HomePremRetail,OneNoteFreeRetail
+
+>>[2022-09-21 15:07:28] Office2021 Install path： C:\Program Files\Microsoft Office\Office16
+>>[2022-09-21 15:07:28] Office2021 License path： C:\Program Files\Microsoft Office\root\Licenses16
+>>[2022-09-21 15:07:28] _Check_Office_Info Office2021 :
+
+
+ Office VL =0
+>>[2022-09-21 15:07:28] _CheckOfficeVOL_Licensestatus Office2021 :
+
+
+>>[2022-09-21 15:07:28] Office2019 _OfficeExistCheck OfficeExist = 1 C2R = HKLM64\SOFTWARE\Microsoft\Office\ClickToRun\Configuration MSI = 0 PRIds = O365HomePremRetail,OneNoteFreeRetail
+
+>>[2022-09-21 15:07:28] Office2019 Install path： C:\Program Files\Microsoft Office\Office16
+>>[2022-09-21 15:07:28] Office2019 License path： C:\Program Files\Microsoft Office\root\Licenses16
+>>[2022-09-21 15:07:29] _Check_Office_Info Office2019 :
+
+
+ Office VL =0
+>>[2022-09-21 15:07:29] _CheckOfficeVOL_Licensestatus Office2019 :
+
+
+>>[2022-09-21 15:07:29] Office2016 _OfficeExistCheck OfficeExist = 1 C2R = HKLM64\SOFTWARE\Microsoft\Office\ClickToRun\Configuration MSI = 0 PRIds = O365HomePremRetail,OneNoteFreeRetail
+
+>>[2022-09-21 15:07:29] Office2016 Install path： C:\Program Files\Microsoft Office\Office16
+>>[2022-09-21 15:07:29] Office2016 License path： C:\Program Files\Microsoft Office\root\Licenses16
+>>[2022-09-21 15:07:29] _Check_Office_Info Office2016 :
+
+
+ Office VL =0
+>>[2022-09-21 15:07:30] _CheckOfficeVOL_Licensestatus Office2016 :
+Office 16, Office16OneNoteFreeR_Bypass edition
+
+
+>>[2022-09-21 15:07:30] Office2013 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2022-09-21 15:07:30] Office2013 Install path： 
+>>[2022-09-21 15:07:30] Office2013 License path： 
+>>[2022-09-21 15:07:30] _MSI_R2V  Begining...
+>>[2022-09-21 15:07:30] Office2010 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2022-09-21 15:07:30] _MSI_R2V Office 2010 = Null
+>>[2022-09-21 15:07:30] Office2013 _OfficeExistCheck  MSI = 0
+
+>>[2022-09-21 15:07:30] Office2016 _OfficeExistCheck  MSI = 0
+
+>>[2022-09-21 15:07:30]  _OfficeUWPExist OfficeExist = 
+
+>>[2022-09-21 15:07:30] Office2016 _OfficeExistCheck OfficeExist = 1 C2R = HKLM64\SOFTWARE\Microsoft\Office\ClickToRun\Configuration MSI = 0 PRIds = O365HomePremRetail,OneNoteFreeRetail
+
+>>[2022-09-21 15:07:30] Office2019 _OfficeExistCheck OfficeExist = 1 C2R = HKLM64\SOFTWARE\Microsoft\Office\ClickToRun\Configuration MSI = 0 PRIds = O365HomePremRetail,OneNoteFreeRetail
+
+>>[2022-09-21 15:07:30] _MSI_R2V Office 2013 = Nul
+>>[2022-09-21 15:07:30] _MSI_R2V Office 2016 = Nul
+>>[2022-09-21 15:07:30] _MSI_R2V Office 2019 = Nul 
+>>[2022-09-21 15:07:37] Add Defender Exclusion = 
+>>[2022-09-21 15:07:38] 确定。
+
+
+>>[2022-09-21 15:07:38] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2022-09-21 15:07:41] Software Protection 服务正在停止.
+Software Protection 服务已成功停止。
+
+
+>>[2022-09-21 15:07:42] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2022-09-21 15:07:42] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2022-09-21 15:07:43] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2022-09-21 15:07:43] _StartKMSServer KMSMode = 2
+>>[2022-09-21 15:07:43] 
+没有与指定标准相匹配的规则。
+
+
+>>[2022-09-21 15:07:43] 确定。
+
+
+>>[2022-09-21 15:07:43] HKLM64\SOFTWARE\Policies\Microsoft\Windows NT\CurrentVersion\Software Protection Platform Add NoGenTicket = 1
+>>[2022-09-21 15:07:43] Copy SppExtComObjHook = 1
+>>[2022-09-21 15:07:44] 发现 SID: C:\Windows\System32\SppExtComObjHook.dll。
+已成功处理 1 个文件; 处理 0 个文件时失败
+已处理的文件: C:\Windows\System32\SppExtComObjHook.dll
+已成功处理 1 个文件; 处理 0 个文件时失败
+
+>>[2022-09-21 15:07:44] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SppExtComObj.exe Del = 0

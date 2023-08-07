@@ -1,0 +1,2 @@
+StarUml		- JAVA写的一款流程图、数据结构图等一体的设计工具
+linuxPackages	- linux下的一些包文件
